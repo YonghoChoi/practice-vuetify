@@ -1,4 +1,5 @@
 <template>
+  <!-- 레이아웃 요소를 배치할 땐 v-app  속성을 최상위에 사용해야함 -->
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
@@ -15,6 +16,7 @@
       </v-btn>
     </v-toolbar>
 
+    <!-- v-content를 사용하면 구성 요소가 동적으로 조정됨 -->
     <v-content>
       <HelloWorld/>
     </v-content>
